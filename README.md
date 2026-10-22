@@ -66,5 +66,3 @@ The testbench prints PASS/FAIL for each check and a final summary.
 - The testbench performs simultaneous read and write to **different addresses**. Read/write collisions at the same address can have device-specific behavior when inferred as FPGA block RAM; consult the target FPGA's memory documentation.
 - Actual FPGA mapping to block RAM or distributed RAM depends on the FPGA family, synthesis tool, and coding/configuration choices.
 
-
-4. Add assertions for boundary addresses and additional enable combinations.
